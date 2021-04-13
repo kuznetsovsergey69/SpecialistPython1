@@ -29,3 +29,12 @@
 # 20 199.80 Rub.
 
 # TODO: your code here
+
+cost = 9.99
+index = 1
+maximal = 20
+print("start cost: ", cost)
+while index < maximal:
+    index += 1
+    cost += 9.99
+    print("{:10.2f}".format(cost))
